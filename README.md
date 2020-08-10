@@ -1,8 +1,5 @@
 # slackbot_events_api_example
-This is a basic example of how to build a slack bot using the events API.
-
-## Main Features
-1. Reply to the message 'BOT TEST' when it is posted to a slack channel with the bots handle mentioned.  
+This is a basic example of how to build a slack bot using the events API.  
 
 ## Explanation of Files
 1. slackbot_events_api_example.py: Source code for the slack bot.
@@ -43,14 +40,3 @@ At a high level, the steps you will need to take to get this set up are listed b
     pip3 install -r requirements.txt
     python3 slackbot_events_api_example.py
     ```
-10. Now you should be able to go to the slack app, invite the bot and then send a message
-    ```bash
-    /invite @slackbot_events_api_example
-    @slackbot_events_api_example BOT TEST
-    ```
-11. If everything went to play the bot should respond with the following
-    ```bash
-    Responding to `BOT TEST` message sent by user @yourUserName
-    ```
-## How To Video
-[Coming Soon](https://www.youtube.com/watch?v=EYxAhK_eDx0)
